@@ -1,166 +1,169 @@
 body {
 	height: 100vh;
 }
+button {
+	border: none;
+}
 .calendar {
 	display: grid;
 	grid-template-areas:
-		"1 1 a a"
-		"3 3 b b"
-		"5 5 c c"
-		"7 7 d d"
-		"9 9 e e"
-		"11 11 f f"
-		"13 13 g g"
-		"15 15 h h"
-		"17 17 i i"
-		"19 19 j j"
-		"21 21 k k"
-		"23 23 l l";
-	gap: 5px;
+		"1b 2b "
+		"3b 4b"
+		"5b 6b"
+		"7b 8b"
+		"9b 10b"
+		"11b 12b"
+		"13b 14b"
+		"15b 16b"
+		"17b 18b"
+		"19b 20b"
+		"21b 22b"
+		"23b 24b";
+
+	gap: 10px;
 	background-color: #39511a;
-	padding: 20px;
 }
 .boite1 {
 	background-color: #ffc776;
 	height: 100px;
 	text-align: center;
-	grid-area: 1;
+	grid-area: 1b;
 }
 .boite2 {
 	background-color: #baece7;
 	height: 100px;
 	text-align: center;
-	grid-area: a;
+	grid-area: 2b;
 }
 .boite3 {
 	background-color: #e5d3e4;
 	height: 100px;
 	text-align: center;
-	grid-area: 3;
+	grid-area: 3b;
 }
 .boite4 {
 	background-color: #f26046;
 	height: 100px;
 	text-align: center;
-	grid-area: b;
+	grid-area: 4b;
 }
 .boite5 {
 	background-color: #e5d3e4;
 	height: 100px;
 	text-align: center;
-	grid-area: 6;
+	grid-area: 5b;
 }
 .boite6 {
 	background-color: #baece7;
 	height: 100px;
 	text-align: center;
-	grid-area: c;
+	grid-area: 6b;
 }
 .boite7 {
 	background-color: #ffc776;
 	height: 100px;
 	text-align: center;
-	grid-area: 8;
+	grid-area: 7b;
 }
 .boite8 {
 	background-color: #f26046;
 	height: 100px;
 	text-align: center;
-	grid-area: d;
+	grid-area: 8b;
 }
 .boite9 {
 	background-color: #ffc776;
 	height: 100px;
 	text-align: center;
-	grid-area: 10;
+	grid-area: 9b;
 }
 .boite10 {
 	background-color: #f26046;
 	height: 100px;
 	text-align: center;
-	grid-area: e;
+	grid-area: 10b;
 }
 .boite11 {
 	background-color: #e5d3e4;
 	height: 100px;
 	text-align: center;
-	grid-area: 12;
+	grid-area: 11b;
 }
 .boite12 {
 	background-color: #baece7;
 	height: 100px;
 	text-align: center;
-	grid-area: f;
+	grid-area: 12b;
 }
 .boite13 {
 	background-color: #f26046;
 	height: 100px;
 	text-align: center;
-	grid-area: 14;
+	grid-area: 13b;
 }
 .boite14 {
 	background-color: #e5d3e4;
 	height: 100px;
 	text-align: center;
-	grid-area: g;
+	grid-area: 14b;
 }
 .boite15 {
 	background-color: #ffc776;
 	height: 100px;
 	text-align: center;
-	grid-area: 15;
+	grid-area: 15b;
 }
 .boite16 {
 	background-color: #f26046;
 	height: 100px;
 	text-align: center;
-	grid-area: h;
+	grid-area: 16b;
 }
 .boite17 {
 	background-color: #ffc776;
 	height: 100px;
 	text-align: center;
-	grid-area: 17;
+	grid-area: 17b;
 }
 .boite18 {
 	background-color: #baece7;
 	height: 100px;
 	text-align: center;
-	grid-area: i;
+	grid-area: 18b;
 }
 .boite19 {
 	background-color: #e5d3e4;
 	height: 100px;
 	text-align: center;
-	grid-area: 19;
+	grid-area: 19b;
 }
 .boite20 {
 	background-color: #f26046;
 	height: 100px;
 	text-align: center;
-	grid-area: j;
+	grid-area: 20b;
 }
 .boite21 {
 	background-color: #e5d3e4;
 	height: 100px;
 	text-align: center;
-	grid-area: 21;
+	grid-area: 21b;
 }
 .boite22 {
 	background-color: #f26046;
 	height: 100px;
 	text-align: center;
-	grid-area: k;
+	grid-area: 22b;
 }
 .boite23 {
 	background-color: #baece7;
 	height: 100px;
 	text-align: center;
-	grid-area: 22;
+	grid-area: 23b;
 }
 .boite24 {
 	background-color: #ffc776;
 	height: 100px;
 	text-align: center;
-	grid-area: l;
+	grid-area: 24b;
 }
