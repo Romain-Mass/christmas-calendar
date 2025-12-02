@@ -1,0 +1,166 @@
+body {
+	height: 100vh;
+}
+.calendar {
+	display: grid;
+	grid-template-areas:
+		"1 1 a a"
+		"3 3 b b"
+		"5 5 c c"
+		"7 7 d d"
+		"9 9 e e"
+		"11 11 f f"
+		"13 13 g g"
+		"15 15 h h"
+		"17 17 i i"
+		"19 19 j j"
+		"21 21 k k"
+		"23 23 l l";
+	gap: 5px;
+	background-color: #39511a;
+	padding: 20px;
+}
+.boite1 {
+	background-color: #ffc776;
+	height: 100px;
+	text-align: center;
+	grid-area: 1;
+}
+.boite2 {
+	background-color: #baece7;
+	height: 100px;
+	text-align: center;
+	grid-area: a;
+}
+.boite3 {
+	background-color: #e5d3e4;
+	height: 100px;
+	text-align: center;
+	grid-area: 3;
+}
+.boite4 {
+	background-color: #f26046;
+	height: 100px;
+	text-align: center;
+	grid-area: b;
+}
+.boite5 {
+	background-color: #e5d3e4;
+	height: 100px;
+	text-align: center;
+	grid-area: 6;
+}
+.boite6 {
+	background-color: #baece7;
+	height: 100px;
+	text-align: center;
+	grid-area: c;
+}
+.boite7 {
+	background-color: #ffc776;
+	height: 100px;
+	text-align: center;
+	grid-area: 8;
+}
+.boite8 {
+	background-color: #f26046;
+	height: 100px;
+	text-align: center;
+	grid-area: d;
+}
+.boite9 {
+	background-color: #ffc776;
+	height: 100px;
+	text-align: center;
+	grid-area: 10;
+}
+.boite10 {
+	background-color: #f26046;
+	height: 100px;
+	text-align: center;
+	grid-area: e;
+}
+.boite11 {
+	background-color: #e5d3e4;
+	height: 100px;
+	text-align: center;
+	grid-area: 12;
+}
+.boite12 {
+	background-color: #baece7;
+	height: 100px;
+	text-align: center;
+	grid-area: f;
+}
+.boite13 {
+	background-color: #f26046;
+	height: 100px;
+	text-align: center;
+	grid-area: 14;
+}
+.boite14 {
+	background-color: #e5d3e4;
+	height: 100px;
+	text-align: center;
+	grid-area: g;
+}
+.boite15 {
+	background-color: #ffc776;
+	height: 100px;
+	text-align: center;
+	grid-area: 15;
+}
+.boite16 {
+	background-color: #f26046;
+	height: 100px;
+	text-align: center;
+	grid-area: h;
+}
+.boite17 {
+	background-color: #ffc776;
+	height: 100px;
+	text-align: center;
+	grid-area: 17;
+}
+.boite18 {
+	background-color: #baece7;
+	height: 100px;
+	text-align: center;
+	grid-area: i;
+}
+.boite19 {
+	background-color: #e5d3e4;
+	height: 100px;
+	text-align: center;
+	grid-area: 19;
+}
+.boite20 {
+	background-color: #f26046;
+	height: 100px;
+	text-align: center;
+	grid-area: j;
+}
+.boite21 {
+	background-color: #e5d3e4;
+	height: 100px;
+	text-align: center;
+	grid-area: 21;
+}
+.boite22 {
+	background-color: #f26046;
+	height: 100px;
+	text-align: center;
+	grid-area: k;
+}
+.boite23 {
+	background-color: #baece7;
+	height: 100px;
+	text-align: center;
+	grid-area: 22;
+}
+.boite24 {
+	background-color: #ffc776;
+	height: 100px;
+	text-align: center;
+	grid-area: l;
+}
